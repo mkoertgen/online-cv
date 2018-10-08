@@ -7,14 +7,14 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
+  name: Marcel Körtgen
   tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: marcel.koertgen@gmail.com
-  phone: 012 345 6789
-  website: blog.webjeda.com #do not add http://
+  phone: +49 (0)151-20315988
+  website: mkoertgen.blogspot.com
   linkedin: marcel-körtgen-26118010b
   github: mkoertgen
   gitlab: mkoertgen
@@ -31,14 +31,11 @@ sidebar:
       level: Professional
 
   interests:
-    - item: Climbing
-      ? link
+    - item: Movement/Calisthenics
+      link: https://movisionmovement.de/
 
-    - item: Snowboarding
-      ? link
-
-    - item: Cooking
-      ? link
+    - item: Kayaking
+      link: https://www.kanu.de/
 
 career-profile:
   title: Career Profile
@@ -66,9 +63,9 @@ education:
         - Bullet point 
 
 experiences:
-  - role: Lead Developer
+  - role: Agile Project Lead & Analyst
     time: 2015 - Present
-    company: Startup Hubs, San Francisco
+    company: Schönhofer Sales and Engineering, Germany
     details: |
       Describe your role here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -83,9 +80,9 @@ experiences:
         - Bullet point
         - Bullet point 
 
-  - role: Senior Software Engineer
+  - role: Change Agent, Agile Coach
     time: 2014 - 2015
-    company: Google, London
+    company: Schönhofer Sales and Engineering, Germany
     details: |
       Describe your role here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -96,9 +93,22 @@ experiences:
         - Bullet point
         - Bullet point
 
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+  - role: Product Owner
+    time: 2011 - 2013
+    company: Schönhofer Sales and Engineering, Germany
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+
+  - role: Lead Developer
+    time: 2008 - 2011
+    company: Schönhofer Sales and Engineering, Germany
     details: |
       Describe your role here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -145,38 +155,35 @@ publications:
     bibendum fringilla a eu lectus.
 
   papers:
-    - title: The Art of Computer Programming
-      authors: Donald E. Knuth
-      conference: Addison-Wesley, 1968
+    - title: Robust Automatic Registration of Range Images with Reflectance
+      authors: Marcel Körtgen
+      conference: Master Thesis (2006)
 
-    - title: 'Genetic Programming III: Darwinian Invention &amp; Problem Solving'
-      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-      conference: 'Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)'
+    - title: 'Image-Based Registration of 3D-Range Data Using Feature Surface Elements'
+      authors: 'Gerhard H. Bendels, Patrick Degener, Roland Wahl, Marcel Körtgen, and Reinhard Klein'
+      conference: 'International Symposium on Virtual Reality, Archaeology and Cultural Heritage (VAST 2004), Eurographics, pages 115-124, Dec. 2004'
 
-    - title: A syntax directed compiler for Algol 60
-      authors: Edgar T. Irons
-      conference: 'Comm. ACM 4 (1961), 51–55'
+    - title: 3D Shape Matching with 3D Shape Contexts
+      authors: 'Marcel Körtgen, G. -J. Park, Marcin Novotni, and Reinhard Klein'
+      conference: 'Central European Seminar on Computer Graphics, Apr. 2003'
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-    - name: Python & Django
+    - name: C#
       level: 98%
-
-    - name: Javascript & jQuery
-      level: 98%
-
-    - name: Angular
-      level: 98%
-
-    - name: HTML5 & CSS
-      level: 95%
 
     - name: Ruby on Rails
-      level: 85%
+      level: 95%
 
-    - name: Sketch & Photoshop
+    - name: Javascript
+      level: 80%
+
+    - name: Python
+      level: 75%
+
+    - name: Java
       level: 60%
 
 footer: >
