@@ -127,25 +127,49 @@ projects:
     Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
   assignments:
-    - title: Velocity
-      link: '#hook'
-      tagline: 'A responsive website template designed to help startups promote, market and sell their products.'
+    - title: FluentAssertions.AutoFac
+      link: https://github.com/FluentAssertions/FluentAssertions.autofac
+      tagline: 'Testing your DI logic with Fluent Assertions extensions for Autofac.'
 
-    - title: DevStudio
-      link: '#'
-      tagline: 'A responsive website template designed to help web developers/designers market their services.'
+    - title: Neo4j Decorator
+      link: https://github.com/awesome-inc/neo4j-decorator
+      tagline: 'A HATEOAS-style config-driven decorator for the Neo4j REST Api.'
 
-    - title: Tempo
-      link: '#'
-      tagline: 'A responsive website template designed to help startups promote their products or services and to attract users &amp; investors'
+    - title: MonRepo support for GitLab CI
+      link: https://github.com/awesome-inc/monorepo.gitlab
+      tagline: 'Here is how to split & scale up GitLab CI Jobs for monorepos.'
 
-    - title: Atom
-      link: '#'
-      tagline: 'A comprehensive website template solution for startups/developers to market their mobile apps.'
+    - title: docker-deploy-offline
+      link: https://github.com/awesome-inc/docker-deploy-offline
+      tagline: 'A blueprint on how to use docker for (almost) continuous deployment to an offline environment.'
 
-    - title: Delta
-      link: '#'
-      tagline: 'A responsive Bootstrap one page theme designed to help app developers promote their mobile apps'
+    - title: puppeter-mocha
+      link: https://github.com/awesome-inc/puppeteer-mocha
+      tagline: 'Starter kit for automated browser testing of external sites using puppeteer with Mocha and Chai.'
+
+    - title: DevOps-friendly automated license analysis
+      link: https://github.com/mkoertgen/license.automation
+      tagline: 'Automated license scanning for git repositories using pivotal/LicenseFinder and ELK-based dashboard visualization.'
+
+    - title: Dockerized angular-cli
+      link: https://github.com/awesome-inc/angular-cli
+      tagline: 'A Node image containing a global installation of @angular/cli to build Angular applications in a container.'
+
+    - title: Dockerized jruby-yarn
+      link: https://github.com/awesome-inc/jruby-yarn
+      tagline: 'Docker image for applications using JRuby and yarn/NodeJS, e.g. Rails with webpacker.'
+
+    - title: FontAwesome.Sharp
+      link: https://github.com/awesome-inc/FontAwesome.Sharp
+      tagline: 'A library for using icon fonts like Font Awesome in WPF & Windows Forms applications.'
+
+    - title: OneClickBuild
+      link: https://github.com/awesome-inc/OneClickBuild
+      tagline: 'A complete CI/ALM workflow for .NET Projects using MS-Build. Think dotnet-cli for non-dotnetcore projects.'
+
+    - title: NZazu
+      link: 'https://github.com/awesome-inc/NZazu.'
+      tagline: 'Dynamic WPF forms from JSON. See NZazuFiddle for a WYSIWYG-Editor. Think MSON Lang but for .NET/WPF.'
 
 publications:
   title: Publications
