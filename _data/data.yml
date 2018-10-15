@@ -8,7 +8,10 @@ sidebar:
 
   # Profile information
   name: Marcel Körtgen
-  tagline: Full Stack Developer
+  tagline: |
+    Full Stack Dev & Consultant. 
+    Loves DevOps, Architecture, Agile & Data Science. 
+    Favors doing "the right things" over "doing them right".
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -122,61 +125,65 @@ experiences:
 projects:
   title: Projects
   intro: >
-    You can list your side projects or open source libraries in this
-    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    "We are standing on the shoulders of giants". This is also tremendeously true for Open Source.
+    The following selection of side projects / open source libraries i am maintaining, mostly on GitHub, 
+    is part of my voluntary effort to contribute back to the Open Source community.
 
   assignments:
-    - title: FluentAssertions.AutoFac
+    - title: fluentassertions/FluentAssertions.AutoFac
       link: https://github.com/FluentAssertions/FluentAssertions.autofac
       tagline: 'Testing your DI logic with Fluent Assertions extensions for Autofac.'
 
-    - title: Neo4j Decorator
+    - title: awesome-inc/neo4j-decorator
       link: https://github.com/awesome-inc/neo4j-decorator
       tagline: 'A HATEOAS-style config-driven decorator for the Neo4j REST Api.'
 
-    - title: MonRepo support for GitLab CI
+    - title: awesome-inc/monorepo.gitlab
       link: https://github.com/awesome-inc/monorepo.gitlab
-      tagline: 'Here is how to split & scale up GitLab CI Jobs for monorepos.'
+      tagline: 'MonRepo support for GitLab CI. Here is how to split & scale up GitLab CI Jobs.'
 
     - title: docker-deploy-offline
       link: https://github.com/awesome-inc/docker-deploy-offline
       tagline: 'A blueprint on how to use docker for (almost) continuous deployment to an offline environment.'
 
-    - title: puppeter-mocha
+    - title: awesome-inc/puppeter-mocha
       link: https://github.com/awesome-inc/puppeteer-mocha
       tagline: 'Starter kit for automated browser testing of external sites using puppeteer with Mocha and Chai.'
 
-    - title: DevOps-friendly automated license analysis
+    - title: mkoertgen/license.automation
       link: https://github.com/mkoertgen/license.automation
-      tagline: 'Automated license scanning for git repositories using pivotal/LicenseFinder and ELK-based dashboard visualization.'
+      tagline: 'DevOps-freindly, automated license scanning for git repositories using pivotal/LicenseFinder and ELK-based dashboard visualization.'
 
-    - title: Dockerized angular-cli
+    - title: awesome-inc/angular-cli
       link: https://github.com/awesome-inc/angular-cli
       tagline: 'A Node image containing a global installation of @angular/cli to build Angular applications in a container.'
 
-    - title: Dockerized jruby-yarn
+    - title: awesome-inc/jruby-yarn
       link: https://github.com/awesome-inc/jruby-yarn
       tagline: 'Docker image for applications using JRuby and yarn/NodeJS, e.g. Rails with webpacker.'
 
-    - title: FontAwesome.Sharp
+    - title: awesome-inc/FontAwesome.Sharp
       link: https://github.com/awesome-inc/FontAwesome.Sharp
       tagline: 'A library for using icon fonts like Font Awesome in WPF & Windows Forms applications.'
 
-    - title: OneClickBuild
+    - title: awesome-inc/OneClickBuild
       link: https://github.com/awesome-inc/OneClickBuild
       tagline: 'A complete CI/ALM workflow for .NET Projects using MS-Build. Think dotnet-cli for non-dotnetcore projects.'
 
-    - title: NZazu
-      link: 'https://github.com/awesome-inc/NZazu.'
+    - title: awesome-inc/NZazu
+      link: https://github.com/awesome-inc/NZazu
       tagline: 'Dynamic WPF forms from JSON. See NZazuFiddle for a WYSIWYG-Editor. Think MSON Lang but for .NET/WPF.'
+
+    - title: mkoertgen/3DShapeContexts
+      link: https://github.com/mkoertgen/3DShapeContexts
+      tagline: 'Accompanying source code for my 2003 paper 3D Shape Matching with 3D Shape Contexts.'
+
 
 publications:
   title: Publications
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    A selection of academic publication, almost all dating back to my time at the 
+    "Department of Computer Graphics" at the "University of Bonn, Germany".
 
   papers:
     - title: Robust Automatic Registration of Range Images with Reflectance
@@ -202,21 +209,40 @@ publications:
 skills:
   title: Skills &amp; Proficiency
 
-  toolset:
-    - name: C#
-      level: 98%
+  toolsets:
+    - skills:
+      - name: Agile (Practices, Estimation & Planning)
+        level: 100%
+      
+    - skills:
+      - name: DevOps (CI/CD, Docker, Ansible)
+        level: 95%
 
-    - name: Ruby on Rails
-      level: 95%
+    - skills:
+      - name: Computer Vision, Geospatial Engineering, 3D Computer Graphics
+        level: 85%
 
-    - name: Javascript
-      level: 80%
+    - skills:
+      - name: Data Science, NoSQL, Machine Learning, Data Mining
+        level: 80%
+    
 
-    - name: Python
-      level: 75%
+    - title: Programming Languages
+      skills:
+      - name: C#
+        level: 100%
 
-    - name: Java
-      level: 60%
+      - name: Ruby on Rails
+        level: 95%
+
+      - name: Javascript
+        level: 80%
+
+      - name: Python
+        level: 75%
+
+      - name: Java
+        level: 60%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

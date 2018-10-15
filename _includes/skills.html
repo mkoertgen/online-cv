@@ -10,9 +10,11 @@
     {{ skills.title }}
   </h2>
 
-  <div class="skillset">
+  {% for toolset in skills.toolsets %}
+  <h3 class="project-title">{{ toolset.title }}</h3>
 
-    {% for skill in skills.toolset %}
+  <div class="skillset">
+    {% for skill in toolset.skills %}
     <div class="item">
 
       <h3 class="level-title">{{ skill.name }}</h3>
@@ -20,12 +22,16 @@
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
-      </div><!--//level-bar-->
+      </div>
+      <!--//level-bar-->
 
-    </div><!--//item-->
+    </div>
+    <!--//item-->
     {% endfor %}
 
   </div>
+  {% endfor %}
 
-</section><!--//skills-section-->
+</section>
+<!--//skills-section-->
 {% endif %}
