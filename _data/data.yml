@@ -157,15 +157,23 @@ publications:
   papers:
     - title: Robust Automatic Registration of Range Images with Reflectance
       authors: Marcel Körtgen
+      conference: 'Central European Seminar on Computer Graphics, Apr. 2007'
+      link: http://cg.cs.uni-bonn.de/aigaion2root/attachments/koertgen-2007-robust-registration.pdf
+
+    - title: Robust Automatic Registration of Range Images with Reflectance
+      authors: Marcel Körtgen
       conference: Master Thesis (2006)
+      link: http://cg.cs.uni-bonn.de/en/publications/paper-details/Koertgen2006-Diplomarbeit/
 
     - title: 'Image-Based Registration of 3D-Range Data Using Feature Surface Elements'
       authors: 'Gerhard H. Bendels, Patrick Degener, Roland Wahl, Marcel Körtgen, and Reinhard Klein'
       conference: 'International Symposium on Virtual Reality, Archaeology and Cultural Heritage (VAST 2004), Eurographics, pages 115-124, Dec. 2004'
+      link: http://cg.cs.uni-bonn.de/aigaion2root/attachments/bendels-2004-image-based.pdf
 
     - title: 3D Shape Matching with 3D Shape Contexts
       authors: 'Marcel Körtgen, G. -J. Park, Marcin Novotni, and Reinhard Klein'
       conference: 'Central European Seminar on Computer Graphics, Apr. 2003'
+      link: http://cg.cs.uni-bonn.de/aigaion2root/attachments/koertgen-2003-3d.pdf
 
 skills:
   title: Skills &amp; Proficiency
