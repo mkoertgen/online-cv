@@ -3,8 +3,8 @@
 #
 
 sidebar:
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Marcel Körtgen
@@ -34,11 +34,17 @@ sidebar:
       level: Professional
 
   interests:
-    - item: Movement/Calisthenics
+    - item: Sports (Movement, Calisthenics, Running, Cycling, Kayaking)
       link: https://movisionmovement.de/
 
-    - item: Kayaking
-      link: https://www.kanu.de/
+    - item: Lifelong Learning (Reading, Blogging, DIY Tinkering)
+      link: https://en.wikipedia.org/wiki/Lifelong_learning
+    
+    - item: Sustainable Lifestyle (Minimalism, Nutrition, Freeganism)
+      link: https://www.theminimalists.com/
+
+    - item: Music (Guitar, Piano)
+      link: http://www.martinmillerguitar.com/
 
 career-profile:
   title: Career Profile
@@ -56,19 +62,17 @@ education:
     university: University of Bonn
     time: 1999 - 2006
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
+      Master in [Computer Graphics](http://cg.cs.uni-bonn.de/), main focus on 
+      
+        - 3D Similarity Matching, cf.: [RODA, 3D-Search](http://cg.cs.uni-bonn.de/de/projekte/roda-auffinden-von-3d-objekten-in-digitalen-archiven/)
+        - Virtual Globes, [Visualization of Massive Terrain & City models](http://cg.cs.uni-bonn.de/de/projekte/effizientes-rendering-von-landschaftsmodellen/)
+        - Unsupervised automated [composition of Massive LIDAR scans](http://cg.cs.uni-bonn.de/aigaion2root/attachments/koertgen-2007-robust-registration.pdf)
 
-        - Bullet point
-        - Bullet point 
-
+      Minor in Astronomy at the [Max Planck Institute for Radio Astronomy](https://www.mpifr-bonn.mpg.de/2169/en), Bonn.
 experiences:
-  - role: Agile Project Lead & Analyst
+  - role: Agile Project Lead & Analyst, DevOps Evangelist
     time: 2015 - Present
-    company: Schönhofer Sales and Engineering, Germany
+    company: Schönhofer Sales and Engineering (SSE), Germany
     details: |
       Describe your role here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -85,42 +89,59 @@ experiences:
 
   - role: Change Agent, Agile Coach
     time: 2014 - 2015
-    company: Schönhofer Sales and Engineering, Germany
+    company: Schönhofer Sales and Engineering (SSE), Germany
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
+      In 2012, the Agile community made a big impact on my personal development.
+      As an engineer endorsed by the tenet that anything can be solved by technology,
+      it was ground-shaking to realize how many problems were rooted in inter-personal
+      causes and needed to be adressed at this very level.
 
-        - Bullet point
-        - Bullet point
+      It was in 2014-2015 were i helped laying the groundworks of sustainable
+      product development and changing/hacking the company culture from 
+      hierarchically-driven towards self-empowered teams
 
-  - role: Product Owner
+        - Introduce Dependency Management (NuGet, Maven)
+        - Supersede legacy SCMs (ClearCase, CVS) by [git]
+        - Promote Agile Principles & XP Practices, e.g. SOLID, TDD, Pair-Programming, CI
+
+  - role: Product Owner, Change Agent
     time: 2011 - 2013
-    company: Schönhofer Sales and Engineering, Germany
+    company: Schönhofer Sales and Engineering (SSE), Germany
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
+      After successfully launching the geo-solution in about a dozen projects, 
+      i was offered the opportunity to help relaunching Schönhofers own 
+      Multimedia-Content Analysis and Reporting/Alerting solution.
+      
+      This involved a great deal of refactoring, re-organizing and integrating 
+      a number of legacy codebases & services into a new whole and well-organized
+      product, with a clearly structured, easy-to-grasp & intuitive UI.
 
-        - Bullet point
-        - Bullet point
+      During this time, i learned a lot about balancing refactoring & technical debth,
+      the tension between legacy architecture decisions and the urge for innovation.
 
-  - role: Lead Developer
+      The main technological areas involved were
+
+        - Text Mining, Natural Language Processing (NLP), Entity Extraction
+        - Multimedia-Content Analysis, i.e.
+          - Image & Video Feature Extraction
+          - Voice, Speaker & Speech Recognition
+        - Classical Business Intelligence (BI)
+        - Manual & Semi-Automated Reporting
+        - Config-Driven, customized Workflows & Data Conversion APIs
+
+  - role: Lead Developer, Product Owner
     time: 2008 - 2011
-    company: Schönhofer Sales and Engineering, Germany
+    company: Schönhofer Sales and Engineering (SSE), Germany
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-
-        - Bullet point
-        - Bullet point
+      In 2007, Schönhofer looked for a complete relaunch of their own geospatial mapping solution.
+      They envisioned a fast 3D [Virtual Globe](https://en.wikipedia.org/wiki/Virtual_globe) application
+      that could handle millions of dynamic map objects, moving & updating in realtime. 
+      At the time, none of the existing solutions (e.g. [Google Earth](https://www.google.com/earth/)) 
+      could meet these requirements.
+      
+      Hired directly from the Computer Graphics Department, University of Bonn, i was happily accepting
+      the great opportunity to help envisioning & creating the complete greenfield relaunch 
+      as well as integrating it into Schönhofer's [TARAN Product Suite](https://www.schoenhofer.de/produkte/taran-suite/).
 
 projects:
   title: Projects
@@ -152,7 +173,7 @@ projects:
 
     - title: mkoertgen/license.automation
       link: https://github.com/mkoertgen/license.automation
-      tagline: 'DevOps-freindly, automated license scanning for git repositories using pivotal/LicenseFinder and ELK-based dashboard visualization.'
+      tagline: 'DevOps-friendly, automated license scanning for git repositories using pivotal/LicenseFinder and ELK-based dashboard visualization.'
 
     - title: awesome-inc/angular-cli
       link: https://github.com/awesome-inc/angular-cli
