@@ -69,40 +69,62 @@ education:
         - Unsupervised automated [composition of Massive LIDAR scans](http://cg.cs.uni-bonn.de/aigaion2root/attachments/koertgen-2007-robust-registration.pdf)
 
       Minor in Astronomy at the [Max Planck Institute for Radio Astronomy](https://www.mpifr-bonn.mpg.de/2169/en), Bonn.
+
+  - degree: Certified Scrum Master (SCM)
+    university: Scrum Alliance, IT Agile
+    time: 2012
+
+      Minor in Astronomy at the [Max Planck Institute for Radio Astronomy](https://www.mpifr-bonn.mpg.de/2169/en), Bonn.
 experiences:
   - role: Agile Project Lead & Analyst, DevOps Evangelist
     time: 2015 - Present
     company: Schönhofer Sales and Engineering (SSE), Germany
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
+      About 2015 i started **wearing many hats**, helping teams wherever i can,
+      filling different roles and doing whatever needs to be done in order
+      to **reduce waste & friction** and at the same time, **increase value & purpose**. 
+      
+      I advise in **architectural decisions**, help formulating **long-term company goals**, 
+      **recommend & promote technology stacks**, contribute to **release & roadmap planning**
+      and **assist in personal growth & development through coaching & mentoring**.
+      
+      Still, i do **lots of coding** - from **prototyping**, over **carving out MVPs for 
+      marketing & production**, to helping to **maintain legacy codebases** (50k up to about 1M LOCs).
+      
+      This stems from the idea of the [Three Horizons of Innovation](https://steveblank.com/2015/06/26/lean-innovation-management-making-corporate-innovation-work/).
 
-        - Bullet point
-        - Bullet point 
+      Main contributions since 2015
+
+        - **Recruiting, on-boarding & coaching new talent**
+        - Shaping a **Meetup Culture** by organizing **weekly Talks**, facilitating **hands-on workshops**, ...
+        - Introduced an internal **Technology Advisory Board**, i.e. a group of 
+          senior technical scientists advising in _process, architectural_ and _technology aspects_
+        - Established a **Technology Radar** (inspired by [ThoughtWorks](https://www.thoughtworks.com/radar)), mapping technology vs. project domains visualizingInspired by the [ThoughWorks Technology Radar](https://www.thoughtworks.com/radar)
+        - Pushed **DevOps culture** (CI/CD, Docker, Ansible, ...)
 
   - role: Change Agent, Agile Coach
     time: 2014 - 2015
     company: Schönhofer Sales and Engineering (SSE), Germany
     details: |
-      In 2012, the Agile community made a big impact on my personal development.
-      As an engineer endorsed by the tenet that anything can be solved by technology,
-      it was ground-shaking to realize how many problems were rooted in inter-personal
-      causes and needed to be adressed at this very level.
+      In 2012, the **Agile community** made a big impact on my personal development.
+      As an engineer endorsed by the tenet that _"Anything can be solved by technology"_,
+      it was ground-shaking to realize how **many problems were rooted in inter-personal
+      issues** and thus needed to be adressed at this very level.
 
-      It was in 2014-2015 were i helped laying the groundworks of sustainable
-      product development and changing/hacking the company culture from 
-      hierarchically-driven towards self-empowered teams
+      It was in 2014-2015 were i helped **laying the groundworks of sustainable
+      product development** and changing the company culture from 
+      hierarchically-driven **towards self-empowered teams**.
 
-        - Introduce Dependency Management (NuGet, Maven)
-        - Supersede legacy SCMs (ClearCase, CVS) by [git]
-        - Promote Agile Principles & XP Practices, e.g. SOLID, TDD, Pair-Programming, CI
+      Main contributions during 2014-2015
+
+        - Introduce **Dependency Management** (NuGet, Maven, Artifactory/Nexus, ...)
+        - Supersede legacy SCMs (ClearCase, CVS) with **Git workflows** (e.g. GitFlow)
+        - Promote **Agile Principles** (Scrum Ceremonies) & **XP Practices** (e.g. SOLID, TDD, Pair-Programming)
+        - Introduce **Continuous Integration/Delivery/Deployment** (Jenkins & GitLab), powered by git workflows (Infrastructure as Code)
+        - Shaping **Technical Debt Awareness** (SonarQube)
+
+      Today, this would be called an instance of the [Inverse Conway Maneuver](http://jonnyleroy.com/2011/02/03/dealing-with-creaky-legacy-platforms/),
+      i.e. evolving teams and organizational structure to promote the desired architecture.
 
   - role: Product Owner, Change Agent
     time: 2011 - 2013
@@ -110,16 +132,16 @@ experiences:
     details: |
       After successfully launching the geo-solution in about a dozen projects, 
       i was offered the opportunity to help relaunching Schönhofers own 
-      Multimedia-Content Analysis and Reporting/Alerting solution.
+      **Multimedia-Content Analysis and Reporting/Alerting solution**.
       
-      This involved a great deal of refactoring, re-organizing and integrating 
-      a number of legacy codebases & services into a new whole and well-organized
-      product, with a clearly structured, easy-to-grasp & intuitive UI.
+      This involved a great deal of **refactoring, re-organizing and integrating 
+      a number of legacy codebases & services** into a new whole and **well-organized
+      product**, with a **clearly structured, easy-to-grasp** and **intuitive UI**.
 
-      During this time, i learned a lot about balancing refactoring & technical debth,
-      the tension between legacy architecture decisions and the urge for innovation.
+      During this time, i learned a lot about **balancing refactoring & technical debth** as well as
+      the **tension between legacy architecture decisions and the urge for innovation**.
 
-      The main technological areas involved were
+      Main technological areas involved
 
         - Text Mining, Natural Language Processing (NLP), Entity Extraction
         - Multimedia-Content Analysis, i.e.
@@ -135,9 +157,8 @@ experiences:
     details: |
       In 2007, Schönhofer looked for a complete relaunch of their own geospatial mapping solution.
       They envisioned a fast 3D [Virtual Globe](https://en.wikipedia.org/wiki/Virtual_globe) application
-      that could handle millions of dynamic map objects, moving & updating in realtime. 
-      At the time, none of the existing solutions (e.g. [Google Earth](https://www.google.com/earth/)) 
-      could meet these requirements.
+      that could handle **millions of dynamic map objects, moving & updating in realtime**. 
+      At the time, **none of the existing solutions could meet these requirements** (e.g. [Google Earth](https://www.google.com/earth/)).
       
       Hired directly from the Computer Graphics Department, University of Bonn, i was happily accepting
       the great opportunity to help envisioning & creating the complete greenfield relaunch 
@@ -145,8 +166,8 @@ experiences:
 
 projects:
   title: Projects
-  intro: >
-    "We are standing on the shoulders of giants". This is also tremendeously true for Open Source.
+  intro: |
+    _"We are standing on the shoulders of giants"_. This is also **tremendeously true for Open Source**.
     The following selection of side projects / open source libraries i am maintaining, mostly on GitHub, 
     is part of my voluntary effort to contribute back to the Open Source community.
 
@@ -204,7 +225,7 @@ publications:
   title: Publications
   intro: |
     A selection of academic publication, almost all dating back to my time at the 
-    "Department of Computer Graphics" at the "University of Bonn, Germany".
+    _"Department of Computer Graphics"_ at the _"University of Bonn, Germany"_.
 
   papers:
     - title: Robust Automatic Registration of Range Images with Reflectance
