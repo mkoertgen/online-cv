@@ -9,9 +9,7 @@ sidebar:
   # Profile information
   name: Marcel Körtgen
   tagline: |
-    Full Stack Dev & Consultant. 
-    Loves DevOps, Architecture, Agile & Data Science. 
-    Favors doing "the right things" over "doing them right".
+    Principal Technical Consultant, Agilist, Architect & Full Stack Developer.
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -21,7 +19,7 @@ sidebar:
   linkedin: marcel-körtgen-26118010b
   github: mkoertgen
   gitlab: mkoertgen
-  bitbucket: mkoertgen
+  #bitbucket: mkoertgen
   twitter: '@mkoertg'
   stack-overflow: 2592915/mkoertgen
   codewars: mkoertgen
@@ -49,13 +47,13 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-
-    Second paragraph if required.
+    **Principal Technical Consultant** with **20+ years experience** from **coding to management**.
+    
+    **Multiple hat wearer**. Loves **wrangling hard problems**, balancing & **migrating legacy systems towards modern architectures**
+    and **helping people grow**.
+    
+    **Full Stack** Developer. **Open Source Enthusiast**. **Life long learner**. 
+    Loves Lean, Agile, TTD, XP & **Doing t̶h̶i̶n̶g̶s̶ ̶„̶r̶i̶g̶h̶t̶“̶ the "right things"**.
 
 education:
   - degree: MSc in Computer Science
@@ -76,7 +74,7 @@ education:
 
       Minor in Astronomy at the [Max Planck Institute for Radio Astronomy](https://www.mpifr-bonn.mpg.de/2169/en), Bonn.
 experiences:
-  - role: Agile Project Lead & Analyst, DevOps Evangelist
+  - role: Principal Consultant, Agilist, Architect, DevOps Evangelist
     time: 2015 - Present
     company: Schönhofer Sales and Engineering (SSE), Germany
     details: |
@@ -90,7 +88,6 @@ experiences:
       
       Still, i do **lots of coding** - from **prototyping**, over **carving out MVPs for 
       marketing & production**, to helping to **maintain legacy codebases** (50k up to about 1M LOCs).
-      
       This stems from the idea of the [Three Horizons of Innovation](https://steveblank.com/2015/06/26/lean-innovation-management-making-corporate-innovation-work/).
 
       Main contributions since 2015
@@ -126,7 +123,7 @@ experiences:
       Today, this would be called an instance of the [Inverse Conway Maneuver](http://jonnyleroy.com/2011/02/03/dealing-with-creaky-legacy-platforms/),
       i.e. evolving teams and organizational structure to promote the desired architecture.
 
-  - role: Product Owner, Change Agent
+  - role: Product Owner, Solution Architect
     time: 2011 - 2013
     company: Schönhofer Sales and Engineering (SSE), Germany
     details: |
@@ -163,6 +160,38 @@ experiences:
       Hired directly from the Computer Graphics Department, University of Bonn, i was happily accepting
       the great opportunity to help envisioning & creating the complete greenfield relaunch 
       as well as integrating it into Schönhofer's [TARAN Product Suite](https://www.schoenhofer.de/produkte/taran-suite/).
+
+      <a href="https://www.schoenhofer.de/produkte/taran-suite/" target="_blank">
+        <img class="img-responsive" src="https://www.schoenhofer.de/fileadmin/webpflege/bilder/Taran_Analysis_Tools.png" alt="TARAN Suite" />
+      </a>
+
+  - role: Developer
+    time: 2006 - 2007
+    company: 3D Reality Maps GmbH
+    details: |
+      Programmer on [3D Reality Maps](https://www.realitymaps.de/)
+
+      <a href="https://www.realitymaps.de/" target="_blank">
+        <img class="img-responsive" src="https://www.realitymaps.de/wp-content/uploads/2018/07/grafik-titel-1.png" alt="3D Reality Maps" />
+      </a>
+
+  - role: Project & Research Assistant
+    time: 2005 - 2007
+    company: Steinbeis-Forschungszentrum Computer Graphik und Digitalisierung
+    details: |
+      Research, Tutor, Developer
+
+  - role: Developer
+    time: 2004 - 2005
+    company: Postbank Systems AG
+    details: |
+      Testautomation for Web applications
+
+  - role: Developer
+    time: 2000 - 2003
+    company: Enitiative GmbH
+    details: |
+      Realtime 3D online shops in the web.
 
 projects:
   title: Projects
