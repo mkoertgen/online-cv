@@ -95,7 +95,7 @@ experiences:
         - Shaping a **Meetup Culture** by organizing **weekly Talks**, facilitating **hands-on workshops**, ...
         - Introduced an internal **Technology Advisory Board**, i.e. a group of 
           senior technical scientists advising in _process, architectural_ and _technology aspects_
-        - Established a **Technology Radar** (inspired by [ThoughtWorks](https://www.thoughtworks.com/radar)), mapping technology vs. project domains visualizingInspired by the [ThoughWorks Technology Radar](https://www.thoughtworks.com/radar)
+        - Established a **Technology Radar** (inspired by [ThoughtWorks](https://www.thoughtworks.com/radar)), mapping technology vs. project/product domains
         - Pushed **DevOps culture** (CI/CD, Docker, Ansible, ...)
 
   - role: Change Agent, Agile Coach
