@@ -70,16 +70,16 @@ education:
 
       Minor in Astronomy at the [Max Planck Institute for Radio Astronomy](https://www.mpifr-bonn.mpg.de/2169/en), Bonn.
 
-      Documents:
-        - [mkoertgen-diploma.pdf]({{ site.url }}/assets/pdf/mkoertgen-diploma.pdf)
-        - [mkoertgen-diploma-certificate.pdf]({{ site.url }}/assets/pdf/mkoertgen-diploma-certificate.pdf)
+      Documents
+        - [mkoertgen-diploma.pdf](/online-cv/assets/pdf/mkoertgen-diploma.pdf)
+        - [mkoertgen-diploma-certificate.pdf](/online-cv/assets/pdf/mkoertgen-diploma-certificate.pdf)
 
   - degree: Certified Scrum Master (SCM)
     university: Scrum Alliance, IT Agile
     time: 2012
     details: |
       Documents:
-        - [mkoertgen-csm-certificate.pdf]({{ site.url }}/assets/pdf/mkoertgen-csm-certificate.pdf)
+        - [mkoertgen-csm-certificate.pdf](/online-cv/assets/pdf/mkoertgen-csm-certificate.pdf)
 
 experiences:
   - role: Principal Consultant, Agilist, Architect, DevOps Evangelist
