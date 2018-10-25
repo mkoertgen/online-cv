@@ -13,9 +13,33 @@
     </li>
     {% endif %}
 
+    {% if sidebar.twitter %}
+    <li class="twitter"><i class="fab fa-twitter"></i>
+      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.github %}
+    <li class="github"><i class="fab fa-github"></i>
+      <a href="https://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+    </li>
+    {% endif %}
+
+    {% for docker in sidebar.docker %}
+    <li class="docker"><i class="fab fa-docker"></i>
+      <a href="https://hub.docker.com/r/{{ docker }}/" target="_blank">{{ docker }}</a>
+    </li>
+    {% endfor %}
+
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.speakerdeck %}
+    <li class="speakerdeck"><i class="fab fa-linkedin-in"></i>
+      <a href="https://speakerdeck.com//{{ sidebar.speakerdeck }}" target="_blank">{{ sidebar.speakerdeck }}</a>
     </li>
     {% endif %}
 
@@ -25,29 +49,18 @@
     </li>
     {% endif %}
 
-    {% if sidebar.github %}
-    <li class="github"><i class="fab fa-github"></i>
-      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
-    </li>
-    {% endif %}
-
     {% if sidebar.gitlab %}
     <li class="gitlab"><i class="fab fa-gitlab"></i>
-      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
+      <a href="https://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.bitbucket %}
     <li class="bitbucket"><i class="fab fa-bitbucket"></i>
-      <a href="http://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
+      <a href="https://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
     </li>
     {% endif %}
 
-    {% if sidebar.twitter %}
-    <li class="twitter"><i class="fab fa-twitter"></i>
-      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
-    </li>
-    {% endif %}
 
     {% if sidebar.stack-overflow %}
     <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>

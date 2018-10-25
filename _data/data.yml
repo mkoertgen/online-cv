@@ -15,12 +15,15 @@ sidebar:
   # Sidebar links
   email: marcel.koertgen@gmail.com
   phone: +49 (0)151-20315988
+  twitter: '@mkoertg'
+  github: mkoertgen
+  docker: 
+    - awesomeinc
+  speakerdeck: awesomeincremented
   website: mkoertgen.blogspot.com
   linkedin: marcel-körtgen-26118010b
-  github: mkoertgen
   gitlab: mkoertgen
   #bitbucket: mkoertgen
-  twitter: '@mkoertg'
   stack-overflow: 2592915/mkoertgen
   codewars: mkoertgen
 
@@ -61,16 +64,22 @@ education:
     time: 1999 - 2006
     details: |
       Master in [Computer Graphics](http://cg.cs.uni-bonn.de/), main focus on 
-      
         - 3D Similarity Matching, cf.: [RODA, 3D-Search](http://cg.cs.uni-bonn.de/de/projekte/roda-auffinden-von-3d-objekten-in-digitalen-archiven/)
         - Virtual Globes, [Visualization of Massive Terrain & City models](http://cg.cs.uni-bonn.de/de/projekte/effizientes-rendering-von-landschaftsmodellen/)
         - Unsupervised automated [composition of Massive LIDAR scans](http://cg.cs.uni-bonn.de/aigaion2root/attachments/koertgen-2007-robust-registration.pdf)
 
       Minor in Astronomy at the [Max Planck Institute for Radio Astronomy](https://www.mpifr-bonn.mpg.de/2169/en), Bonn.
 
+      Documents:
+        - [mkoertgen-diploma.pdf]({{ site.url }}/assets/pdf/mkoertgen-diploma.pdf)
+        - [mkoertgen-diploma-certificate.pdf]({{ site.url }}/assets/pdf/mkoertgen-diploma-certificate.pdf)
+
   - degree: Certified Scrum Master (SCM)
     university: Scrum Alliance, IT Agile
     time: 2012
+    details: |
+      Documents:
+        - [mkoertgen-csm-certificate.pdf]({{ site.url }}/assets/pdf/mkoertgen-csm-certificate.pdf)
 
 experiences:
   - role: Principal Consultant, Agilist, Architect, DevOps Evangelist
@@ -244,10 +253,16 @@ projects:
 publications:
   title: Publications
   intro: |
-    A selection of academic publication, almost all dating back to my time at the 
-    _"Department of Computer Graphics"_ at the _"University of Bonn, Germany"_.
+    A selection of academic & non-academic publications, some dating back to my time at the 
+    [Department of Computer Graphics](http://cg.cs.uni-bonn.de/en/people/alumni/dipl-inform-marcel-koertgen/) 
+    of the [University of Bonn, Germany](https://www.uni-bonn.de/).
 
   papers:
+    - title: Collected talks @Speaker Deck/Awesome Incremented
+      authors: Marcel Körtgen et al.
+      conference: Dev.Talks et al.
+      link: https://speakerdeck.com/awesomeincremented
+
     - title: Robust Automatic Registration of Range Images with Reflectance
       authors: Marcel Körtgen
       conference: 'Central European Seminar on Computer Graphics, Apr. 2007'
