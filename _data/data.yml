@@ -82,8 +82,13 @@ education:
         - [mkoertgen-csm-certificate.pdf](/online-cv/assets/pdf/mkoertgen-csm-certificate.pdf)
 
 experiences:
+  - role: Senior Consultant, Agilist, Architect, DevOps Evangelist
+    time: 2019 - present
+    company: consileo GmbH & Co. KG, Germany
+    details: |
+
   - role: Principal Consultant, Agilist, Architect, DevOps Evangelist
-    time: 2015 - Present
+    time: 2015 - 2018
     company: Schönhofer Sales and Engineering (SSE), Germany
     details: |
       About 2015 i started **wearing many hats**, helping teams wherever i can,
