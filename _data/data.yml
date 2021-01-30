@@ -11,13 +11,12 @@ sidebar:
   tagline: |
     Principal Technical Consultant, Agilist, Architect & Full Stack Developer.
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
   # Sidebar links
   email: marcel.koertgen@gmail.com
   phone: +49 (0)1606670955
   twitter: mkoertg
   github: mkoertgen
-  docker: 
+  docker:
     - awesomeinc
   speakerdeck: awesomeincremented
   website: mkoertgen.blogspot.com
@@ -40,7 +39,7 @@ sidebar:
 
     - item: Lifelong Learning (Reading, Blogging, DIY Tinkering)
       link: https://en.wikipedia.org/wiki/Lifelong_learning
-    
+
     - item: Sustainable Lifestyle (Minimalism, Nutrition, Freeganism)
       link: https://www.theminimalists.com/
 
@@ -51,10 +50,10 @@ career-profile:
   title: Career Profile
   summary: |
     **Principal Technical Consultant** with **20+ years experience** from **coding to management**.
-    
+
     **Multiple hat wearer**. Loves **wrangling hard problems**, balancing & **migrating legacy systems towards modern architectures**
     and **helping people grow**.
-    
+
     **Full Stack** Developer. **Open Source Enthusiast**. **Life long learner**. 
     Loves Lean, Agile, TTD, XP & **Doing t̶h̶i̶n̶g̶s̶ ̶„̶r̶i̶g̶h̶t̶“̶ the "right things"**.
 
@@ -86,8 +85,8 @@ experiences:
     time: 2019 - present
     company: consileo GmbH & Co. KG, Germany
     details: |
-      Helping companies to successfully transform into the digita age. 
-      Focus on DevOps & Testautomation, Embedded systems (Azure DevOps/IoT, OpenShift), Agile Coaching.
+      Helping companies to successfully transform into the digital age. 
+      Focus on DevOps & Testautomation, Embedded systems, Agile Coaching.
       Most often involves applying the _Inverse Conway Maneuver_.
 
   - role: Principal Consultant, Agilist, Architect, DevOps Evangelist
@@ -97,11 +96,11 @@ experiences:
       About 2015 i started **wearing many hats**, helping teams wherever i can,
       filling different roles and doing whatever needs to be done in order
       to **reduce waste & friction** and at the same time, **increase value & purpose**. 
-      
+
       I advise in **architectural decisions**, help formulating **long-term company goals**, 
       **recommend & promote technology stacks**, contribute to **release & roadmap planning**
       and **assist in personal growth & development through coaching & mentoring**.
-      
+
       Still, i do **lots of coding** - from **prototyping**, over **carving out MVPs for 
       marketing & production**, to helping to **maintain legacy codebases** (50k up to about 1M LOCs).
       This stems from the idea of the [Three Horizons of Innovation](https://steveblank.com/2015/06/26/lean-innovation-management-making-corporate-innovation-work/).
@@ -146,7 +145,7 @@ experiences:
       After successfully launching the geo-solution in about a dozen projects, 
       i was offered the opportunity to help relaunching Schönhofers own 
       **Multimedia-Content Analysis and Reporting/Alerting solution**.
-      
+
       This involved a great deal of **refactoring, re-organizing and integrating 
       a number of legacy codebases & services** into a new whole and **well-organized
       product**, with a **clearly structured, easy-to-grasp** and **intuitive UI**.
@@ -172,7 +171,7 @@ experiences:
       They envisioned a fast 3D [Virtual Globe](https://en.wikipedia.org/wiki/Virtual_globe) application
       that could handle **millions of dynamic map objects, moving & updating in realtime**. 
       At the time, **none of the existing solutions could meet these requirements** (e.g. [Google Earth](https://www.google.com/earth/)).
-      
+
       Hired directly from the Computer Graphics Department, University of Bonn, i was happily accepting
       the great opportunity to help envisioning & creating the complete greenfield relaunch 
       as well as integrating it into Schönhofer's [TARAN Product Suite](https://www.schoenhofer.de/produkte/taran-suite/).
@@ -211,52 +210,51 @@ projects:
   assignments:
     - title: fluentassertions/FluentAssertions.AutoFac
       link: https://github.com/FluentAssertions/FluentAssertions.autofac
-      tagline: 'Testing your DI logic with Fluent Assertions extensions for Autofac.'
+      tagline: "Testing your DI logic with Fluent Assertions extensions for Autofac."
 
     - title: awesome-inc/neo4j-decorator
       link: https://github.com/awesome-inc/neo4j-decorator
-      tagline: 'A HATEOAS-style config-driven decorator for the Neo4j REST Api.'
+      tagline: "A HATEOAS-style config-driven decorator for the Neo4j REST Api."
 
     - title: awesome-inc/monorepo.gitlab
       link: https://github.com/awesome-inc/monorepo.gitlab
-      tagline: 'MonRepo support for GitLab CI. Here is how to split & scale up GitLab CI Jobs.'
+      tagline: "MonRepo support for GitLab CI. Here is how to split & scale up GitLab CI Jobs."
 
     - title: docker-deploy-offline
       link: https://github.com/awesome-inc/docker-deploy-offline
-      tagline: 'A blueprint on how to use docker for (almost) continuous deployment to an offline environment.'
+      tagline: "A blueprint on how to use docker for (almost) continuous deployment to an offline environment."
 
     - title: awesome-inc/puppeter-mocha
       link: https://github.com/awesome-inc/puppeteer-mocha
-      tagline: 'Starter kit for automated browser testing of external sites using puppeteer with Mocha and Chai.'
+      tagline: "Starter kit for automated browser testing of external sites using puppeteer with Mocha and Chai."
 
     - title: mkoertgen/license.automation
       link: https://github.com/mkoertgen/license.automation
-      tagline: 'DevOps-friendly, automated license scanning for git repositories using pivotal/LicenseFinder and ELK-based dashboard visualization.'
+      tagline: "DevOps-friendly, automated license scanning for git repositories using pivotal/LicenseFinder and ELK-based dashboard visualization."
 
     - title: awesome-inc/angular-cli
       link: https://github.com/awesome-inc/angular-cli
-      tagline: 'A Node image containing a global installation of @angular/cli to build Angular applications in a container.'
+      tagline: "A Node image containing a global installation of @angular/cli to build Angular applications in a container."
 
     - title: awesome-inc/jruby-yarn
       link: https://github.com/awesome-inc/jruby-yarn
-      tagline: 'Docker image for applications using JRuby and yarn/NodeJS, e.g. Rails with webpacker.'
+      tagline: "Docker image for applications using JRuby and yarn/NodeJS, e.g. Rails with webpacker."
 
     - title: awesome-inc/FontAwesome.Sharp
       link: https://github.com/awesome-inc/FontAwesome.Sharp
-      tagline: 'A library for using icon fonts like Font Awesome in WPF & Windows Forms applications.'
+      tagline: "A library for using icon fonts like Font Awesome in WPF & Windows Forms applications."
 
     - title: awesome-inc/OneClickBuild
       link: https://github.com/awesome-inc/OneClickBuild
-      tagline: 'A complete CI/ALM workflow for .NET Projects using MS-Build. Think dotnet-cli for non-dotnetcore projects.'
+      tagline: "A complete CI/ALM workflow for .NET Projects using MS-Build. Think dotnet-cli for non-dotnetcore projects."
 
     - title: awesome-inc/NZazu
       link: https://github.com/awesome-inc/NZazu
-      tagline: 'Dynamic WPF forms from JSON. See NZazuFiddle for a WYSIWYG-Editor. Think MSON Lang but for .NET/WPF.'
+      tagline: "Dynamic WPF forms from JSON. See NZazuFiddle for a WYSIWYG-Editor. Think MSON Lang but for .NET/WPF."
 
     - title: mkoertgen/3DShapeContexts
       link: https://github.com/mkoertgen/3DShapeContexts
-      tagline: 'Accompanying source code for my 2003 paper 3D Shape Matching with 3D Shape Contexts.'
-
+      tagline: "Accompanying source code for my 2003 paper 3D Shape Matching with 3D Shape Contexts."
 
 publications:
   title: Publications
@@ -273,7 +271,7 @@ publications:
 
     - title: Robust Automatic Registration of Range Images with Reflectance
       authors: Marcel Körtgen
-      conference: 'Central European Seminar on Computer Graphics, Apr. 2007'
+      conference: "Central European Seminar on Computer Graphics, Apr. 2007"
       link: http://cg.cs.uni-bonn.de/aigaion2root/attachments/koertgen-2007-robust-registration.pdf
 
     - title: Robust Automatic Registration of Range Images with Reflectance
@@ -281,14 +279,14 @@ publications:
       conference: Master Thesis (2006)
       link: http://cg.cs.uni-bonn.de/en/publications/paper-details/Koertgen2006-Diplomarbeit/
 
-    - title: 'Image-Based Registration of 3D-Range Data Using Feature Surface Elements'
-      authors: 'Gerhard H. Bendels, Patrick Degener, Roland Wahl, Marcel Körtgen, and Reinhard Klein'
-      conference: 'International Symposium on Virtual Reality, Archaeology and Cultural Heritage (VAST 2004), Eurographics, pages 115-124, Dec. 2004'
+    - title: "Image-Based Registration of 3D-Range Data Using Feature Surface Elements"
+      authors: "Gerhard H. Bendels, Patrick Degener, Roland Wahl, Marcel Körtgen, and Reinhard Klein"
+      conference: "International Symposium on Virtual Reality, Archaeology and Cultural Heritage (VAST 2004), Eurographics, pages 115-124, Dec. 2004"
       link: http://cg.cs.uni-bonn.de/aigaion2root/attachments/bendels-2004-image-based.pdf
 
     - title: 3D Shape Matching with 3D Shape Contexts
-      authors: 'Marcel Körtgen, G. -J. Park, Marcin Novotni, and Reinhard Klein'
-      conference: 'Central European Seminar on Computer Graphics, Apr. 2003'
+      authors: "Marcel Körtgen, G. -J. Park, Marcin Novotni, and Reinhard Klein"
+      conference: "Central European Seminar on Computer Graphics, Apr. 2003"
       link: http://cg.cs.uni-bonn.de/aigaion2root/attachments/koertgen-2003-3d.pdf
 
 skills:
@@ -296,39 +294,37 @@ skills:
 
   toolsets:
     - skills:
-      - name: Agile (Practices, Estimation & Planning)
-        level: 100%
-      
-    - skills:
-      - name: DevOps (CI/CD, Docker, Ansible)
-        level: 95%
+        - name: Agile (Practices, Estimation & Planning)
+          level: 100%
 
     - skills:
-      - name: Computer Vision, Geospatial Engineering, 3D Computer Graphics
-        level: 85%
+        - name: DevOps (CI/CD, Docker, Ansible)
+          level: 95%
 
     - skills:
-      - name: Data Science, NoSQL, Machine Learning, Data Mining
-        level: 80%
-    
+        - name: Computer Vision, Geospatial Engineering, 3D Computer Graphics
+          level: 85%
+
+    - skills:
+        - name: Data Science, NoSQL, Machine Learning, Data Mining
+          level: 80%
 
     - title: Programming Languages
       skills:
-      - name: C#
-        level: 100%
+        - name: C#
+          level: 100%
 
-      - name: Ruby / Rails
-        level: 95%
+        - name: Ruby / Rails
+          level: 95%
 
-      - name: Python
-        level: 90%
+        - name: Python
+          level: 90%
 
-      - name: Java
-        level: 85%
+        - name: Java
+          level: 85%
 
-      - name: Javascript
-        level: 75%
-
+        - name: Javascript
+          level: 75%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
